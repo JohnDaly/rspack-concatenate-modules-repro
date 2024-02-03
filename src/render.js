@@ -1,8 +1,7 @@
-import './render.css'
+import './render.css';
+import { useIntl } from 'react-intl';
 
 export function render() {
-    const el = document.createElement('div')
-    el.classList.add('text')
-    document.getElementsByTagName('body')[0].appendChild(el)
-    el.innerHTML = 'hello, world'
+  const intl = useIntl();
+  return intl;
 }

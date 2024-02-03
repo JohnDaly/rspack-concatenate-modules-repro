@@ -17,9 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@rspack/cli": "latest",
-    "@rspack/core": "latest",
+    "@rspack/cli": "0.5.3-canary-5190d8e-20240202165757",
+    "@rspack/core": "0.5.3-canary-5190d8e-20240202165757",
     "html-webpack-plugin": "^5.5.3",
+    "react-intl": "^6.6.2",
     "webpack": "^5.79.0",
     "webpack-cli": "^5.0.1"
   },
